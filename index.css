@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.root{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.web_helper{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 20px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: auto 10px;
+    height: 70px;
+    border-bottom: 1px solid rgb(199, 197, 197);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.topbar_list{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    /* width: 100%; */
+}
+
+.topbar_list button{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 15px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.topbar_list button svg{
+    margin-right: 16px;
+}
+
+.tasks{
+    color: #1878e6ec;
+    background-color: #dbecff;
+    border: 1px solid white;
+}
+
+.tasks:hover{
+    background-color: #bcdcff;
+    border: 1px solid #1878e6ec;
+}
+
+.editor{
+    color: #9418e6ec;
+    background-color: #f1e2ff;
+    border: 1px solid white;
+}
+
+.editor:hover{
+    background-color: #e9d1ff;
+    border: 1px solid #9418e6ec;
+}
+
+.sshare{
+    color: #e618d5ec;
+    background-color: #fad7f5;
+    border: 1px solid white;
+}
+
+.sshare:hover{
+    background-color: #fcc7f5;
+    border: 1px solid #e618d5ec;
+}
+

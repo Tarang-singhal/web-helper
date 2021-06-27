@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+
+<body>
+
+    <div id="editor">
+        <ul class="tabs">
+            <li id="tab_html" class="active">Html</li>
+            <li id="tab_css">Css</li>
+            <li id="tab_javascript">Javascript</li>
+            <span class="right">
+                <select id="theme" class="select">
+                    <option value="monokai">Monokai</option>
+                    <option value="dracula">Dracula</option>
+                    <option value="nord_dark">Nord</option>
+                    <option value="xcode">Xcode</option>
+                    <option value="github">Github</option>
+                </select>
+                <button id="run" class="run">Run</button>
+            </span>
+        </ul>
+
+        <div id="code_editor"></div>
+    </div>
+    <div id="code_output">
+        <iframe id="output" src="" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="editor.js"></script>
+</body>
+
+</html>
