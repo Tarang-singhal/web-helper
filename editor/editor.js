@@ -15,6 +15,9 @@ const defaultHtml =
             margin: 0;
             padding: 10px;
         }
+        p{
+            color: red;
+        }
     </style>
 </head>
 <body>
